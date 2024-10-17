@@ -22,3 +22,14 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# next.js
+/.next/
+/.vite/
+/out/
+
+# production
+/build
+
+# vercel
+.vercel

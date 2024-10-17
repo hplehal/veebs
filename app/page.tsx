@@ -1,13 +1,11 @@
 import Image from "next/image";
 // import styles from "./page.module.css";
-import CommonWrapper from "./components/CommonWrapper";
-
 export default function Home() {
   return (
-    <CommonWrapper>
+    <div>
       <h1>Welcome to Veebs!</h1>
       <Image
-        src="@public/titos.png"
+        src="/images/titos.png"
         alt="Veebs logo"
         width={200}
         height={200}
@@ -29,7 +27,7 @@ export default function Home() {
       <p>
         <a href="/teams">View the teams</a>
       </p>
-    </CommonWrapper>
+    </div>
   
   );
 }
