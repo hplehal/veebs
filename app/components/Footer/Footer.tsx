@@ -4,6 +4,7 @@ import {
     FaYoutube,
 } from 'react-icons/fa'
 import Link from "next/link";
+import "./Footer.module.css";
 
 export default function Footer() {
     return(
